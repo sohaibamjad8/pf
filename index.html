@@ -1,0 +1,1766 @@
+<!DOCTYPE html>
+<html class="overflow-x-hidden h-full" lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Sohaib Amjad - UI/UX Designer</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Template Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+   <!-- Template CSS Files -->
+   <link rel="stylesheet" href="assets/css/circle.css" >
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+   <link rel="stylesheet" href="assets/css/component.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+   <!-- CSS Skin File -->
+   <link rel="stylesheet" href="assets/css/skins/yellow.css">
+   <!-- Modernizr JS File -->
+   <script src="assets/js/modernizr.min.js"></script>
+</head>
+<body class="home dark font-Poppins text-fs-16 text-white font-medium leading-lh-1.6 relative w-full h-full bg-black overflow-hidden">
+
+   <!-- Preloader Starts -->
+   <div id="preloader" class="fixed z-100 group left-0 top-0 h-screen w-full flex justify-center items-center pointer-events-none before:absolute before:left-0 before:top-0 before:w-1/2 before:h-full before:bg-black-3 before:transition-all before:duration-300 after:absolute after:right-0 after:top-0 after:w-1/2 after:h-full after:bg-black-3 after:transition-all after:duration-300 [&.preloaded]:before:animate-finishanimation [&.preloaded]:after:animate-finishanimation">
+      <div class="line m-0 h-250 w-3 rounded-4 relative overflow-hidden transition-all duration-700 before:animate-animateline before:z-10 before:absolute before:left-0 before:top-1/2 before:w-3 before:h-0 before:-translate-y-1/2 after:animate-animatebgline after:absolute after:left-0 after:w-1 after:h-full after:bg-transparent after:-translate-y-full group-[.preloaded]:opacity-0 group-[.preloaded]:!h-full group-[.preloaded]:after:opacity-0"></div>
+   </div>
+   <!-- Preloader Ends -->
+   <!-- Header Starts -->
+   <header class="header from-lg:fixed from-lg:right-30 from-lg:bottom-0 from-lg:z-30 from-lg:flex from-lg:items-center from-lg:h-[calc(100vh-200px)] from-lg:top-100 from-lg:opacity-100 from-lg:transition from-lg:duration-300 from-lg:[&.hide-header]:z-0 from-lg:[&.hide-header]:opacity-0" id="navbar-collapse-toggle">
+      <!-- Fixed Desktop Navigation Starts -->
+      <ul id="desktop-nav" class="icon-menu down-lg:hidden from-md:block uppercase">
+         <li class="desktop-nav-element cursor-pointer w-50 h-50 relative flex items-center justify-center transition duration-300 my-20 mx-0 rounded-full bg-black-2 active">
+            <img src="assets/img/icons/home.png" class="w-20 h-20 absolute mx-auto">
+            <div class="group block p-0 w-50 h-50" >
+               <h2 class="absolute text-center -z-10 block h-50 pr-25 pl-30 text-fs-15 right-0 opacity-0 text-white leading-lh-50 font-medium transition-all duration-300 rounded-30 group-hover:opacity-100 group-hover:right-27 group-hover:rounded-tl-30 group-hover:rounded-bl-30 group-hover:rounded-tr-none group-hover:rounded-br-none">Home </h2>
+            </div>
+         </li>
+         <li class="desktop-nav-element cursor-pointer w-50 h-50 relative flex items-center justify-center transition duration-300 my-20 mx-0 rounded-full bg-black-2">
+            <img src="assets/img/icons/user.png" class="w-20 h-20 absolute mx-auto">
+            <div class="group block p-0 w-50 h-50" >
+               <h2 class="absolute text-center -z-10 block h-50 pr-25 pl-30 text-fs-15 right-0 opacity-0 text-white leading-lh-50 font-medium transition-all duration-300 rounded-30 group-hover:opacity-100 group-hover:right-27 group-hover:rounded-tl-30 group-hover:rounded-bl-30 group-hover:rounded-tr-none group-hover:rounded-br-none">About</h2>
+            </div>
+         </li>
+         <li class="desktop-nav-element cursor-pointer w-50 h-50 relative flex items-center justify-center transition duration-300 my-20 mx-0 rounded-full bg-black-2">
+            <img src="assets/img/icons/briefcase.png" class="w-20 h-20 absolute mx-auto">
+            <div class="group block p-0 w-50 h-50">
+               <h2 class="absolute text-center -z-10 block h-50 pr-25 pl-30 text-fs-15 right-0 opacity-0 text-white leading-lh-50 font-medium transition-all duration-300 rounded-30 group-hover:opacity-100 group-hover:right-27 group-hover:rounded-tl-30 group-hover:rounded-bl-30 group-hover:rounded-tr-none group-hover:rounded-br-none">Portfolio</h2>
+            </div>
+         </li>
+
+
+      </ul>
+      <!-- Fixed Desktop Navigation Ends -->
+      <!-- Mobile Menu Starts -->
+      <nav class="hidden down-md:block relative">
+         <div id="menuToggle" class="fixed top-30 right-30 z-50 select-none pt-19 pl-16 w-54 h-54 rounded-5 bg-black-3 xs:right-15 xs:top-4 xs:pb-13 xs:w-49 xs:h-49">
+            <input id="inputmobile" class="h-54 w-54 absolute top-0 left-0 opacity-0 z-20 cursor-pointer peer" type="checkbox">
+            <span class="flex h-0.5 w-23 mb-5 relative bg-white z-10 rounded-3 origin-0 custom-transition peer-checked:rotate-45 peer-checked:translate-x-1 peer-checked:translate-y-0"></span>
+            <span class="flex h-0.5 w-23 mb-5 relative bg-white z-10 rounded-3 origin-0-100 custom-transition peer-checked:opacity-0 peer-checked:scale-0-2"></span>
+            <span class="flex h-0.5 w-23 mb-5 relative bg-white z-10 rounded-3 origin-0-100 custom-transition peer-checked:-rotate-45 peer-checked:translate-x-2 peer-checked:translate-y-2"></span>
+            <ul class="fixed m-0 left-0 top-0 w-full h-full pt-60 bg-black-3 -translate-x-full ease-menu-mobile duration-500 peer-checked:transform-none [&>li]:cursor-pointer [&>li]:after:absolute [&>li]:after:h-px [&>li]:after:w-[calc(100%-60px)] [&>li]:after:bg-black-4 [&>li]:after:left-30 [&>li:last-child]:after:hidden" id="mobile-nav">
+               <li class="mobile-nav-element active relative pl-30 home-link">
+                  <div class="uppercase delay-2000 no-underline relative text-fs-26 xs:text-fs-18 py-14">
+                     <img src="assets/img/icons/home.png">
+                     <span class="absolute left-50 xs:left-35 font-normal">Home</span>
+                  </div>
+               </li>
+               <li class="mobile-nav-element relative pl-30">
+                  <div class="uppercase delay-2000 no-underline relative text-fs-26 xs:text-fs-18 py-14">
+                     <i class="fa fa-user"></i>
+                     <span class="absolute left-50 xs:left-35 font-normal">About</span>
+                  </div>
+               </li>
+               <li class="mobile-nav-element relative pl-30">
+                  <div class="uppercase delay-2000 no-underline relative text-fs-26 xs:text-fs-18 py-14">
+                     <i class="fa fa-folder-open"></i>
+                     <span class="absolute left-50 xs:left-35 font-normal">Portfolio</span>
+                  </div>
+               </li>
+
+            </ul>
+         </div>
+      </nav>
+      <!-- Mobile Menu Ends -->
+   </header>
+   <!-- Header Ends -->
+   <!-- Main Content Starts -->
+   <div class="w-full h-full pages overflow-hidden">
+      <!-- Home Starts -->
+      <div class="page page--current" id="home">
+         <div class="bg-accent fixed w-full h-200prcnt -rotate-15 -top-1/2 -left-83prcnt hidden from-lg:block"></div>
+         <div class="flex items-center h-screen w-full down-lg:mx-auto down-lg:justify-center xs:text-left down-lg:text-center ">
+            <!-- Desktop Image Starts -->
+            <img class="hidden from-lg:block fixed w-1/3 h-[calc(100vh-80px)] left-40 top-40 rounded-30 shadow-1 object-cover" src="assets/img/sohaib-amjad.jpg" alt="">
+            <!-- Desktop Image Ends -->
+            <div class="from-lg:ml-100/3 from-lg:w-2/3">
+               <div class="mx-auto max-w-800 custom-md-1:max-w-450">
+                  <!-- Mobile Image Starts -->
+                  <img src="assets/img/dark-img-mobile.jpg" class="hidden down-lg:block xs:!hidden rounded-full w-270 h-270 mx-auto mb-25 border-4 border-solid border-black-3" alt="my picture">
+                  <!-- Mobile Image Ends -->
+                  <!-- Informations Starts -->
+                  <h1 class="text-fs-51 text-accent font-Poppins relative uppercase font-bold leading-lh-62 pl-70 before:absolute before:left-0 before:top-29 before:h-4 before:w-40 before:rounded-10 custom-md-2:text-fs-42 down-xl:before:hidden down-xl:pl-0 custom-md-2:leading-lh-52 down-md:text-fs-38 down-md:leading-lh-48 down-md:mt-29 down-md:mb-13 xs:text-fs-29 xs:leading-lh-39 xs:mt-18">I'm Sohaib Amjad.<span class="block text-white">UI/UX Designer & Frontend Developer</span></h1>
+                  <p class="font-Open-sans mt-15 mb-28 leading-lh-35 down-lg:mt-2.5 down-lg:mb-23 down-lg:text-fs-15 down-lg:leading-lh-30">
+                    A seasoned UI/UX Designer and Frontend Developer with a passion for crafting seamless digital experiences. Through a blend of creativity and technical expertise, I bring ideas to life, ensuring they not only look visually appealing but also deliver a user-centric and engaging interface. Let's innovate together!
+
+                 </p>
+                 <div id="link-about" class="button cursor-pointer overflow-hidden inline-block leading-lh-1.4 rounded-30 text-ellipsis text-center align-middle select-none transition-all duration-250 ease-in-out uppercase no-underline relative z-10 py-16 pr-70 pl-35 text-fs-15 font-semibold text-white bg-transparent outline-0 before:absolute before:-z-10 before:left-0 before:right-0 before:top-0 before:bottom-0 before:translate-x-full hover:before:translate-x-0 before:transition before:duration-300 before:ease-out">
+                  <span class="relative z-20 text-white">more about me</span>
+                  <span >
+                    <img class="absolute px-16 py-16 -right-px bottom-0 w-55 h-55 flex items-center justify-center rounded-full text-white text-fs-19 bg-accent" src="assets/img/icons/right-arrow.png">
+                 </span>
+              </div>
+              <!-- Informations Ends -->
+           </div>
+        </div>
+     </div>
+  </div>
+  <!-- Home Ends -->
+  <!-- About Starts -->
+  <div class="page" id="about">
+   <div class="w-full">
+      <!-- Section Title Starts -->
+      <div class="mx-auto w-full relative py-80 text-center xs:px-25 xs:pt-16 xs:pb-14 xs:bg-black-3 xs:border-b xs:border-black-4 xs:fixed xs:left-0 xs:right-0 xs:top-0 xs:z-20">
+         <h2 class="text-fs-56 font-black font-Poppins uppercase text-white m-0 xs:text-fs-26 xs:text-left xs:leading-lh-1.2">
+            about <span class="text-accent">me</span>
+         </h2>
+         <span class="text-fs-110 absolute left-0 right-0 top-1/2 tracking-10 leading-lh-0.7 font-extrabold text-muted -translate-y-1/2 uppercase xs:hidden">resume</span>
+      </div>
+      <!-- Section Title Ends -->
+      <div class="xl:max-w-1140 custom-md-3:max-w-[calc(100%-195px)] lg:max-w-960 md:max-w-720 sm:max-w-540 xs:max-w-full mx-auto">
+         <div class="flex flex-row down-lg:flex-col">
+            <!-- Personal Informations Starts -->
+            <div class="xl:basis-1/2 lg:basis-5/12 down-lg:basis-full">
+               <h3 class="uppercase text-fs-26 xs:text-fs-21 pb-22 text-white font-semibold">
+                  personal details
+               </h3>
+               <img class="hidden xs:block rounded-full border-4 border-solid border-black-3 w-230 h-230 mb-25 mx-auto" src="assets/img/dark-img-mobile.jpg" alt="">
+               <div class="flex justify-between xs:justify-start font-Open-sans capitalize">
+                  <div class="basis-1/2 [&>div]:pb-20 [&>div:last-child]:pb-0 text-fs-15 xs:text-fs-14">
+                     <div>
+                        <span class="opacity-80">
+                           Full Name : <br>
+                        </span>
+                        <span class="xs:block custom-md-2:block font-semibold">
+                           Sohaib Amjad
+                        </span>
+                     </div>
+                     <div>
+                        <span class="opacity-80">
+                           Current Designation : <br>
+                        </span>
+                        <span class="xs:block custom-md-2:block font-semibold">
+                           Senior UI/UX Designer & Frontend Developer
+                        </span>
+                     </div>
+                     <div>
+                        <span class="opacity-80">
+                           Education : <br>
+                        </span>
+                        <span class="xs:block custom-md-2:block font-semibold">
+                           Bachelors in Media Communication
+                        </span>
+                     </div>
+                     <div>
+                        <span class="opacity-80">
+                           Achievements/Awards : <br>
+                        </span>
+                        <span class="xs:block custom-md-2:block font-semibold">
+                           - Google UX Design Certification <br>
+                           - PHP Web Development Certification <br>
+                           - Employee of the Month
+                        </span>
+                     </div>
+                  </div>
+                  <div class="basis-1/2 [&>div]:pb-20 [&>div:last-child]:pb-0 text-fs-15 xs:text-fs-14">
+                     <div>
+                        <span class="opacity-80">
+                           Current address : <br>
+                        </span>
+                        <span class="xs:block custom-md-2:block font-semibold">
+                           Dubai, UAE
+                        </span>
+                     </div>
+                     <div>
+                        <span class="opacity-80">
+                           phone : <br>
+                        </span>
+                        <span class="xs:block custom-md-2:block font-semibold">
+                           +971 56 5998 667
+                        </span>
+                     </div>
+                     <div>
+                        <span class="opacity-80">
+                           email : <br>
+                        </span>
+                        <span class="xs:block custom-md-2:block font-semibold">
+                           sobi888@gmail.com
+                        </span>
+                     </div>
+                     <div>
+                        <span class="opacity-80">
+                           skype :
+                        </span>
+                        <span class="xs:block custom-md-2:block font-semibold">
+                           sohaibamjad888
+                        </span>
+                     </div>
+                     <div>
+                        <span class="opacity-80">
+                           LinkedIn : <br>
+                        </span>
+                        <span class="xs:block custom-md-2:block font-semibold">
+                           <a href="https://www.linkedin.com/in/sohaibamjad/" target="_blank">linkedin.com/in/sohaibamjad</a>
+                        </span>
+                     </div>
+                  </div>
+               </div>
+               <a class="button mt-30 overflow-hidden inline-block leading-lh-1.4 rounded-30 text-ellipsis text-center align-middle select-none transition-all duration-250 ease-in-out uppercase no-underline relative z-10 py-16 pr-70 pl-35 text-fs-15 font-semibold text-white bg-transparent outline-0 before:absolute before:-z-10 before:left-0 before:right-0 before:top-0 before:bottom-0 before:translate-x-full hover:before:translate-x-0 before:transition before:duration-300 before:ease-out" href="assets/img/Sohaib-Amjad-UI-UX.pdf">
+                  <span class="relative z-20 text-white">download cv</span>
+                  <span >
+                     <img class="absolute px-16 py-16 -right-px bottom-0 w-55 h-55 flex items-center justify-center rounded-full text-white text-fs-19 bg-accent" src="assets/img/icons/download.png">
+                  </span>
+               </a>
+            </div>
+            <!-- Personal Informations Ends -->
+            <!-- Facts Starts -->
+            <div class="xl:basis-1/2 lg:basis-7/12 down-lg:basis-full down-lg:mt-50">
+               <div class="flex down-lg:-mx-15 flex-wrap">
+                  <div class="w-1/2 px-15">
+                     <div class="pt-20 xs:pt-15 pr-30 xs:pr-20 pb-25 xs:pb-20 pl-40 xs:pl-25 border border-black-3 rounded-5 mb-30 xs:mb-25">
+                        <h3 class="relative inline-block font-bold text-fs-50 xs:text-fs-40 text-accent leading-lh-1.2 after:content-['+'] after:absolute after:-right-24 after:text-fs-33 after:font-light after:top-2">
+                           12
+                        </h3>
+                        <p class="relative xs:text-fs-14 uppercase pl-45 xs:pl-0 xs:before:hidden font-Open-sans font-medium before:absolute before:left-0 before:top-13 before:w-30 before:h-1 before:bg-black-5">
+                           years of <span class="block">experience</span>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="w-1/2 px-15">
+                     <div class="pt-20 xs:pt-15 pr-30 xs:pr-20 pb-25 xs:pb-20 pl-40 xs:pl-25 border border-black-3 rounded-5 mb-30 xs:mb-25">
+                        <h3 class="relative inline-block font-bold text-fs-50 xs:text-fs-40 text-accent leading-lh-1.2 after:content-['+'] after:absolute after:-right-24 after:text-fs-33 after:font-light after:top-2">
+                           50
+                        </h3>
+                        <p class="relative xs:text-fs-14 uppercase pl-45 xs:pl-0 xs:before:hidden font-Open-sans font-medium before:absolute before:left-0 before:top-13 before:w-30 before:h-1 before:bg-black-5">
+                           completed <span class="block">projects</span>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="w-1/2 px-15">
+                     <div class="pt-20 xs:pt-15 pr-30 xs:pr-20 pb-25 xs:pb-20 pl-40 xs:pl-25 border border-black-3 rounded-5">
+                        <h3 class="relative inline-block font-bold text-fs-50 xs:text-fs-40 text-accent leading-lh-1.2 after:content-['+'] after:absolute after:-right-24 after:text-fs-33 after:font-light after:top-2">
+                           50
+                        </h3>
+                        <p class="relative xs:text-fs-14 uppercase pl-45 xs:pl-0 xs:before:hidden font-Open-sans font-medium before:absolute before:left-0 before:top-13 before:w-30 before:h-1 before:bg-black-5">
+                           happy <span class="block">customers</span>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="w-1/2 px-15">
+                     <div class="pt-20 xs:pt-15 pr-30 xs:pr-20 pb-25 xs:pb-20 pl-40 xs:pl-25 border border-black-3 rounded-5">
+                        <h3 class="relative inline-block font-bold text-fs-50 xs:text-fs-40 text-accent leading-lh-1.2 after:content-['+'] after:absolute after:-right-24 after:text-fs-33 after:font-light after:top-2">
+                           3
+                        </h3>
+                        <p class="relative xs:text-fs-14 uppercase pl-45 xs:pl-0 xs:before:hidden font-Open-sans font-medium before:absolute before:left-0 before:top-13 before:w-30 before:h-1 before:bg-black-5">
+                           awards <span class="block">won</span>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Facts Ends -->
+         </div>
+         <hr class="border-t border-solid border-t-black-3 mx-auto max-w-40prcent mt-70 mb-55">
+         <h3 class="uppercase text-fs-26 xs:text-fs-21 pb-48 text-white font-semibold text-center">
+            my skills
+         </h3>
+         <!-- Skills Starts -->
+         <div class="flex w-full flex-wrap">
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p100 float-none mx-auto bg-black-3">
+                  <span>100%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Visual design</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p90 float-none mx-auto bg-black-3">
+                  <span>90%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Wireframing</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p70 float-none mx-auto bg-black-3">
+                  <span>70%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">SaaS Product design</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p100 float-none mx-auto bg-black-3">
+                  <span>100%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Client Presentation</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p90 float-none mx-auto bg-black-3">
+                  <span>90%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">User Flows</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p95 float-none mx-auto bg-black-3">
+                  <span>85%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">UX strategy</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p50 float-none mx-auto bg-black-3">
+                  <span>80%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Interaction Design</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p100 float-none mx-auto bg-black-3">
+                  <span>100%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Prototyping</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p45 float-none mx-auto bg-black-3">
+                  <span>85%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Mobile App Design</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p65 float-none mx-auto bg-black-3">
+                  <span>65%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Storytelling</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p95 float-none mx-auto bg-black-3">
+                  <span>95%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Figma</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p85 float-none mx-auto bg-black-3">
+                  <span>85%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Photoshop</h6>
+            </div>
+
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p60 float-none mx-auto bg-black-3">
+                  <span>60%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Balsamiq</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p40 float-none mx-auto bg-black-3">
+                  <span>40%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Sketch</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p70 float-none mx-auto bg-black-3">
+                  <span>70%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Invision Studio</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p65 float-none mx-auto bg-black-3">
+                  <span>65%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Adobe XD</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p55 float-none mx-auto bg-black-3">
+                  <span>55%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Adobe Illustrator</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p70 float-none mx-auto bg-black-3">
+                  <span>70%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Github/Gitlab/Bitbucket</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p90 float-none mx-auto bg-black-3">
+                  <span>90%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">HTML5/HTML</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p95 float-none mx-auto bg-black-3">
+                  <span>95%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Bootstrap</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p70 float-none mx-auto bg-black-3">
+                  <span>70%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Foundation</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p85 float-none mx-auto bg-black-3">
+                  <span>85%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Animate.css</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p65 float-none mx-auto bg-black-3">
+                  <span>65%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">MD Bootstrap</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p100 float-none mx-auto bg-black-3">
+                  <span>100%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">CSS3/CSS</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p75 float-none mx-auto bg-black-3">
+                  <span>75%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">SASS/SCSS/LESS</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p95 float-none mx-auto bg-black-3">
+                  <span>95%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Web Design</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p65 float-none mx-auto bg-black-3">
+                  <span>65%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Skeleton</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p70 float-none mx-auto bg-black-3">
+                  <span>70%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Materialize CSS</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p85 float-none mx-auto bg-black-3">
+                  <span>85%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Ant Design</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p65 float-none mx-auto bg-black-3">
+                  <span>65%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Tailwind CSS</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p70 float-none mx-auto bg-black-3">
+                  <span>70%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Javascript/jquery</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p100 float-none mx-auto bg-black-3">
+                  <span>100%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Responsive  Design</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p65 float-none mx-auto bg-black-3">
+                  <span>65%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">React.js</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p60 float-none mx-auto bg-black-3">
+                  <span>60%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Next.js</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p50 float-none mx-auto bg-black-3">
+                  <span>50%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Redux.js</h6>
+            </div>
+            <div class="w-1/4 mb-48 down-sm:w-1/2 xs:mb-16">
+               <div class="c100 p75 float-none mx-auto bg-black-3">
+                  <span>75%</span>
+                  <div class="slice">
+                     <div class="bar"></div>
+                     <div class="fill"></div>
+                  </div>
+               </div>
+               <h6 class="uppercase font-Open-sans text-center mt-24 xs:mt-8">Styled Component</h6>
+            </div>
+         </div>
+         <!-- Skills Ends -->
+         <hr class="border-t border-solid border-t-black-3 mx-auto max-w-40prcent mt-35 mb-55">
+         <h3 class="uppercase text-fs-26 xs:text-fs-21 pb-48 text-white font-semibold text-center">
+            experience & education
+         </h3>
+         <!-- Resume Starts -->
+         <div class="flex down-sm:flex-col from-sm:mb-40">
+            <!-- Experience Starts -->
+            <div class="w-1/2 down-sm:w-full">
+               <ul>
+                  <li class="relative pr-20 pl-60 mb-50 after:absolute after:top-0 after:left-20 after:bg-black-4 after:w-1 after:h-full">
+                     <div class="bg-accent w-40 h-40 absolute left-0 leading-lh-40 text-center z-10 rounded-full text-white">
+                        <img src="assets/img/icons/briefcase.png" class="w-20 icon-design">
+                     </div>
+                     <span class="text-white text-fs-12 py-1 px-10 inline-block mb-12 rounded-20 font-semibold bg-black-3 opacity-80 font-Open-sans uppercase">
+                        Sep, 2023 - Present
+                     </span>
+                     <h5 class="uppercase text-fs-18 mt-7 mb-10">
+                      Principal UI/UX Designer and Frontend Developer
+                      <span class="opacity-80 block font-semibold text-fs-15 relative pl-16 font-Open-sans">
+                        VMarketing Ltd
+                     </span>
+                  </h5>
+                  <p class="font-Open-sans text-light-grey text-fs-14">
+                     User Interface (UI) Design:<br>
+                     •  Conceptualize and create visually appealing and user-centric interfaces for digital products.<br>
+                     •  Conduct user research to understand user needs, preferences, and behaviors.<br>
+                     •  Develop wireframes, prototypes, and high-fidelity designs based on user feedback and project requirements.<br>
+                     •  Ensure consistency and adherence to design systems across various platforms and devices.<br>
+
+                     User Experience (UX) Design:<br>
+                     •  Design and optimize user journeys, workflows, and interactions to enhance the overall user experience.<br>
+                     •  Collaborate with cross-functional teams, including developers and product managers, to align design solutions with business goals.<br>
+                     •  Conduct usability testing and gather insights to iterate and improve designs.<br>
+                     •  Advocate for a user-centered design approach and contribute to the establishment of design best practices.<br>
+
+                     Design Leadership:<br>
+                     •  Lead and mentor junior designers, providing guidance on design principles, methodologies, and tools.<br>
+                     •  Collaborate with stakeholders to communicate design concepts and rationale effectively.<br>
+                     •  Participate in design critiques and contribute to a positive and collaborative design culture.<br>
+
+                     Frontend Development:<br>
+                     •  Develop responsive and cross-browser-compatible web applications using HTML, CSS, JavaScript, Bootstrap, AntDesign, Material Design<br>
+                     •  Implement user interfaces based on design specifications, ensuring a seamless and visually consistent experience.<br>
+                     •  Collaborate with backend developers to integrate frontend components with server-side logic.<br>
+                     •  Optimize web applications for performance and scalability.<br>
+
+                     Frontend Frameworks:<br>
+                     •  Utilize frontend frameworks (e.g., React, Angular, Next.js) to build dynamic and interactive user interfaces.<br>
+                     •  Utilize CSS frameworks (e.g., Material, Bootstrap, Foundation, AntDesign) to build responsive websites.<br>
+                     •  Stay informed about updates and new features within frontend frameworks to leverage their capabilities effectively.<br>
+
+                  </p>
+               </li>
+
+
+               <li class="relative pr-20 pl-60 mb-50 after:absolute after:top-0 after:left-20 after:bg-black-4 after:w-1 after:h-full">
+                  <div class="bg-accent w-40 h-40 absolute left-0 leading-lh-40 text-center z-10 rounded-full text-white">
+                     <img src="assets/img/icons/briefcase.png" class="w-20 icon-design">
+                  </div>
+                  <span class="text-white text-fs-12 py-1 px-10 inline-block mb-12 rounded-20 font-semibold bg-black-3 opacity-80 font-Open-sans uppercase">
+                     Jan, 2023 - Sep 2023
+                  </span>
+                  <h5 class="uppercase text-fs-18 mt-7 mb-10">
+                     Principal UI/UX Engineer
+                     <span class="opacity-80 block font-semibold text-fs-15 relative pl-16 font-Open-sans">
+                        Antechip Gaming Services
+                     </span>
+                  </h5>
+                  <p class="font-Open-sans text-light-grey text-fs-14">
+                     User Interface (UI) Design: <br>
+                     •  Develop visually appealing and user-friendly interfaces for iGaming websites and applications.<br>
+                     •  Create wireframes, mockups, and prototypes to illustrate design concepts and user flows.<br>
+
+                     Brand Consistency:<br>
+                     •  Ensure consistent application of brand guidelines across all UI elements.<br>
+                     •  Collaborate with the marketing team to maintain a cohesive visual identity for their iGaming services.<br>
+                     •  Create brand guidelines for their various products.<br>
+
+                     User Experience (UX):<br>
+                     •  Work closely with UX designers to implement design solutions that enhance user engagement and satisfaction.<br>
+                     •  Conduct user research and usability testing to gather insights for continuous improvement.<br>
+
+                     Responsive Design:<br>
+                     •  Implement responsive design principles to ensure a seamless gaming experience across various devices and screen sizes.<br>
+
+                     Collaboration:<br>
+                     •  Collaborate with frontend developers, backend developers, and other stakeholders to bring designs to life.<br>
+                     •  Communicate design concepts and rationale effectively to cross-functional teams.<br>
+
+                     Innovation:<br>
+                     •  Stay updated on industry trends, emerging technologies, and design best practices in the iGaming sector.<br>
+                     •  Introduce innovative design solutions to elevate our iGaming platforms.
+
+                  </p>
+               </li>
+
+
+            </ul>
+         </div>
+         <!-- Experience Ends -->
+         <!-- Education Starts -->
+         <div class="w-1/2 down-sm:w-full">
+            <ul>
+
+               <li class="relative pr-20 pl-60 mb-50 after:absolute after:top-0 after:left-20 after:bg-black-4 after:w-1 after:h-full">
+                  <div class="bg-accent w-40 h-40 absolute left-0 leading-lh-40 text-center z-10 rounded-full text-white">
+                     <img src="assets/img/icons/briefcase.png" class="w-20 icon-design">
+                  </div>
+                  <span class="text-white text-fs-12 py-1 px-10 inline-block mb-12 rounded-20 font-semibold bg-black-3 opacity-80 font-Open-sans uppercase">
+                     Apr, 2019 - Jan, 2023
+                  </span>
+                  <h5 class="uppercase text-fs-18 mt-7 mb-10">
+                   Principal UI/UX Engineer
+                   <span class="opacity-80 block font-semibold text-fs-15 relative pl-16 font-Open-sans">
+                     Soliton Technologies
+                  </span>
+               </h5>
+               <p class="font-Open-sans text-light-grey text-fs-14">
+                  Strategic UI/UX Leadership:<br>
+                  •  Define and communicate a strategic vision for UI/UX design aligned with the unique needs of healthcare software solutions.<br>
+                  •  Leverage deep knowledge of healthcare industry standards, compliance, and user expectations to guide design strategy.<br>
+
+                  Team Mentorship and Collaboration:<br>
+                  •  Provide mentorship to UI/UX team members, emphasizing the unique challenges and considerations in healthcare design.<br>
+                  •  Collaborate closely with healthcare domain experts, developers, and stakeholders to align design efforts with healthcare software goals.<br>
+
+                  User-Centric Design for Healthcare:<br>
+                  •  Conduct extensive user research within the healthcare domain to understand clinical workflows, regulatory requirements, and end-user needs.<br>
+                  •  Advocate for patient-centric design principles, ensuring a compassionate and user-friendly experience for healthcare professionals and patients.<br>
+
+                  Interoperability and Integration:<br>
+                  •  Work on UI/UX designs that seamlessly integrate with diverse healthcare IT systems and standards.<br>
+                  •  Ensure that UI/UX solutions prioritize data security and adhere to strict healthcare privacy regulations.<br>
+
+                  Stakeholder Engagement:
+                  •  Effectively communicate design decisions to healthcare stakeholders, including clinicians, administrators, and IT professionals.
+                  •  Engage with healthcare clients to deeply understand their design requirements and provide solutions aligned with healthcare objectives.
+
+               </p>
+            </li>
+
+            <li class="relative pr-20 pl-60 mb-50 after:absolute after:top-0 after:left-20 after:bg-black-4 after:w-1 after:h-full">
+               <div class="bg-accent w-40 h-40 absolute left-0 leading-lh-40 text-center z-10 rounded-full text-white">
+                  <img src="assets/img/icons/briefcase.png" class="w-20 icon-design">
+               </div>
+               <span class="text-white text-fs-12 py-1 px-10 inline-block mb-12 rounded-20 font-semibold bg-black-3 opacity-80 font-Open-sans uppercase">
+                  Apr, 2015 - Apr 2019
+               </span>
+               <h5 class="uppercase text-fs-18 mt-7 mb-10">
+                 UI/UX Designer
+                 <span class="opacity-80 block font-semibold text-fs-15 relative pl-16 font-Open-sans">
+                  Blue Sky Automation
+               </span>
+            </h5>
+            <p class="font-Open-sans text-light-grey text-fs-14">
+               Primary Roles:<br>
+
+               Visual Design:<br>
+               •  Create visually appealing and cohesive designs that align with brand guidelines.<br>
+               •  Design icons, graphics, and other visual elements for user interfaces.<br>
+
+               Wireframing and Prototyping:<br>
+               •  Develop wireframes to outline the structure and layout of interfaces.<br>
+               •  Create interactive prototypes to showcase design concepts and user flows.<br>
+
+               Typography and Color Theory:<br>
+               •  Choose appropriate fonts and color schemes to enhance readability and aesthetics.<br>
+               •  Apply principles of color theory for a harmonious and user-friendly visual experience.<br>
+
+               User Research:<br>
+               •  Conduct user interviews, surveys, and usability studies to understand user needs and behaviors.<br>
+               •  Analyze and interpret user feedback to inform design decisions.<br>
+
+               Client Interaction:<br>
+               •  Communicate design concepts and rationale to clients effectively.<br>
+               •  Understand and incorporate client feedback into the design process.
+
+            </p>
+         </li>
+
+      </ul>
+   </div>
+   <!-- Education Ends -->
+</div>
+<!-- Resume Ends -->
+</div>
+</div>
+</div>
+<!-- About Ends -->
+<!-- Portfolio Starts -->
+<div class="page" id="portfolio">
+   <div class="w-full">
+      <!-- Section Title Starts -->
+      <div class="mx-auto w-full relative py-80 text-center xs:px-25 xs:pt-16 xs:pb-14 xs:bg-black-3 xs:border-b xs:border-black-4 xs:fixed xs:left-0 xs:right-0 xs:top-0 xs:z-20">
+         <h2 class="text-fs-56 font-black font-Poppins uppercase text-white m-0 xs:text-fs-26 xs:text-left xs:leading-lh-1.2">
+            my <span class="text-accent">portfolio</span>
+         </h2>
+         <span class="text-fs-110 absolute left-0 right-0 top-1/2 tracking-10 leading-lh-0.7 font-extrabold text-muted -translate-y-1/2 uppercase xs:hidden">works</span>
+      </div>
+      <!-- Section Title Ends -->
+      <!-- Portfolio Items Starts -->
+      <div class="-mt-15 pb-60 xs:pb-20 portfolio">
+         <div id="grid-gallery" class="xl:max-w-1140 custom-md-3:max-w-[calc(100%-195px)] md:max-w-720 sm:max-w-540 xs:max-w-full mx-auto">
+            <!-- Portfolio Grid Starts -->
+            <div class="grid-wrap mx-auto mb-25">
+               <ul class="gridlist">
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-1.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 text-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-23.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 text-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-2.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-3.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-4.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-5.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-6.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-7.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-8.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-9.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-10.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-11.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-12.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-13.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-14.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-15.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-16.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-18.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-19.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-20.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-21.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+                  <!-- Portfolio Grid Item Starts -->
+                  <li class="w-1/3 down-lg:w-1/2 xs:w-full float-left cursor-pointer p-15 xs:px-0">
+                     <figure class="transition duration-300 rounded-5 relative overflow-hidden">
+                        <img class="block relative w-full rounded-5 transition duration-300" src="assets/img/projects/project-22.jpg" alt="">
+                        <div class="absolute w-full h-full flex items-center justify-center bg-accent">
+                           <span class="uppercase text-fs-18 tex-white">
+                              Web Project
+                           </span>
+                        </div>
+                     </figure>
+                  </li>
+                  <!-- Portfolio Grid Item Ends -->
+               </ul>
+            </div>
+            <!-- Portfolio Grid Ends -->
+            <!-- Portfolio Details Starts -->
+            <div class="slideshow">
+               <ul>
+                  <!-- Portfolio Item Detail Starts -->
+                  <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                     <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                        <!-- Project Details Starts -->
+                        <figcaption class="mb-15">
+                           <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                           <div class="flex flex-wrap font-Open-sans text-fs-15">
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                              </div>
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">UNATION</span>
+                              </div>
+                              <div class="w-1/2 xs:w-full mb-8">
+                                <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">HTML, CSS, Figma</span>
+                              </div>
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.unation.com/" target="_blank">unation.com</a></span>
+                              </div>
+                           </div>
+                        </figcaption>
+                        <!-- Project Details Ends -->
+                        <!-- Main Project Content Starts -->
+                        <img class="block w-full rounded-5" src="assets/img/projects/project-1.jpg" alt="Portolio Image">
+                        <!-- Main Project Content Ends -->
+                     </figure>
+                  </li>
+                  <!-- Portfolio Item Detail Ends -->
+                  <!-- Portfolio Item Detail Starts -->
+                  <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                     <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                        <!-- Project Details Starts -->
+                        <figcaption class="mb-15">
+                           <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                           <div class="flex flex-wrap font-Open-sans text-fs-15">
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                              </div>
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Dream Gulf</span>
+                              </div>
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">HTML, CSS, JavaScript, Figma, Illustrator</span>
+                              </div>
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://dreamgulf.com/index.php" target="_blank">dreamgulf.com</a></span>
+                              </div>
+                           </div>
+                        </figcaption>
+                        <!-- Project Details Ends -->
+                        <!-- Main Project Content Starts -->
+                        <img class="block w-full rounded-5" src="assets/img/projects/project-23.jpg" alt="Portolio Image">
+                        <!-- Main Project Content Ends -->
+                     </figure>
+                  </li>
+                  <!-- Portfolio Item Detail Ends -->
+                  <!-- Portfolio Item Detail Starts -->
+                  <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                     <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                        <!-- Project Details Starts -->
+                        <figcaption class="mb-15">
+                           <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                           <div class="flex flex-wrap font-Open-sans text-fs-15">
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                              </div>
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">ROLZO</span>
+                              </div>
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">AngularJS, Figma, Illustrator</span>
+                              </div>
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://rolzo.com/en/" target="_blank">rolzo.com</a></span>
+                              </div>
+                           </div>
+                        </figcaption>
+                        <!-- Project Details Ends -->
+                        <!-- Main Project Content Starts -->
+                        <img class="block w-full rounded-5" src="assets/img/projects/project-2.jpg" alt="Portolio Image">
+                        <!-- Main Project Content Ends -->
+                     </figure>
+                  </li>
+                  <!-- Portfolio Item Detail Ends -->
+                  <!-- Portfolio Item Detail Starts -->
+                  <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                     <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                        <!-- Project Details Starts -->
+                        <figcaption class="mb-15">
+                           <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                           <div class="flex flex-wrap font-Open-sans text-fs-15">
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                              </div>
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Antechip</span>
+                              </div>
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">Figma, XD</span>
+                              </div>
+                              <div class="w-1/2 xs:w-full mb-8">
+                                 <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.figma.com/proto/Rhu9U8pW9NyfqaLmlUosFG/Login-Casino-Web%2BManager?page-id=6214%3A2555&type=design&node-id=6214-3129&viewport=288%2C425%2C0.02&t=2tENSNtodtPicivC-8&scaling=scale-down-width&starting-point-node-id=6214%3A3129&hide-ui=1" target="_blank">Figma Prototype</a></span>
+                              </div>
+                           </div>
+                        </figcaption>
+                        <!-- Project Details Ends -->
+                        <!-- Main Project Content Starts -->
+                        <img class="block w-full rounded-5" src="assets/img/projects/project-3.jpg" alt="Portolio Image">
+                        <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">VCON</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">Figma, Illustrator, XD</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.figma.com/proto/Mfl6zFYEz2ffMzYatUf7yf/V-CON?page-id=0%3A1&type=design&node-id=1-1877&viewport=682%2C380%2C0.04&t=k009o3qjHqnFOAlN-8&scaling=scale-down-width&starting-point-node-id=1%3A1877&hide-ui=1" target="_blank">Vcon Landing Page</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-4.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Vewards</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">HTML, CSS, Javascript, Figma, Illustrator</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.figma.com/proto/sPTUVnVrmvVAr7QLp0JMnq/Validus---Backoffice?page-id=1657%3A552&type=design&node-id=2026-1229&viewport=735%2C1605%2C0.08&t=88JCLQ4gsGSdxnjP-8&scaling=scale-down-width&starting-point-node-id=2026%3A1229&hide-ui=1" target="_blank">Vewards Prototype</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-5.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Antechip</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">HTML, CSS, Javascript, XD, Figma, Illustrator</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://antechip.com/" target="_blank">antechip.com</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-6.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Dmoose</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">HTML, CSS, Javascript</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.dmoose.com/" target="_blank">dmoose.com</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-7.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Ruddocks and Co</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">HTML, CSS, Javascript, Figma</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.ruddocksandco.co.uk/" target="_blank">ruddocksandco.co.uk</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-8.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Sarah</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">Figma, Photoshop</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.figma.com/proto/90TMlqGmnZpCWuBFCaJdLk/Sarah?page-id=0%3A1&type=design&node-id=1-2&viewport=65%2C327%2C0.03&t=Ji08JuxfqHHOqaZs-8&scaling=scale-down-width&starting-point-node-id=1%3A2&hide-ui=1" target="_blank">Figma Prototype</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-9.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Taro</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">Figma, XD</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.figma.com/proto/XnU21WiSsf3Vu16Wvxxwtd/Taro-%E2%80%94-Final-V2?page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&scaling=scale-down-width&hide-ui=1&t=g3PcINbb9E9H8Av8-8" target="_blank">Figma Prototype</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-10.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Backoffice</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Digital Dolphin</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">Figma, XD, Illustrator</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.figma.com/proto/JKo8HmGzUzUE066tCMBzWn/Task-Management-Tool?page-id=0%3A1&type=design&node-id=1-2&viewport=343%2C450%2C0.11&t=W2a3bTljTzHPLxpj-8&scaling=scale-down-width&starting-point-node-id=1%3A2&hide-ui=1" target="_blank">Figma Prototype</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-11.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">OECD</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">HTML, CSS, Javascript, Figma, XD</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.figma.com/proto/N2SvNJOtdxjh6a8Tnlp4bu/OECD-%7C-UI?page-id=1862%3A2&type=design&node-id=1862-385&viewport=396%2C1184%2C0.17&t=eQf1KXItnv1XhoPr-8&scaling=scale-down-width&starting-point-node-id=1862%3A385&hide-ui=1" target="_blank">Figma Prototype</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-12.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Designs Valley</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">HTML, CSS, Javascript, Figma</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://designsvalley.com/" target="_blank">designsvalley.com</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-13.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Next Step Resourcing</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">Figma, XD</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.figma.com/proto/cq9PoDO4WBUBS2fyfC6LIY/NextStep-Resourcing?page-id=0%3A1&type=design&node-id=92-242&viewport=303%2C38%2C0.03&t=pwwB3Fsq9X3ti7ZA-8&scaling=scale-down-width&starting-point-node-id=92%3A242&hide-ui=1" target="_blank">Figma Prototype</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-14.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Zipcoin</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">Figma, Illustrator</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.figma.com/proto/w3d645lWLXiMvGY2ZGykNk/Zipcoin?page-id=0%3A1&type=design&node-id=63-5&viewport=-513%2C689%2C0.51&t=6ulm0soFXQkZMo98-8&scaling=scale-down-width&starting-point-node-id=200%3A810&hide-ui=1" target="_blank">Figma Prototype</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-15.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Themesmill</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">HTML, CSS, Javascript, Photoshop, Illustrator</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://themesmill.com/demos/dineup-html/index.html" target="_blank">Dine Up</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-16.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Themesmill</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">HTML, CSS, Javascript, Photoshop, Illustrator</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://themesmill.com/demos/fine-build/" target="_blank">Fine Build</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-18.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">North Grille</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">Figma, Adobe XD</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.figma.com/proto/7piCgzMeeaN3MQdsy8m5qR/North-Grille?type=design&node-id=1-4&t=klpFPQ2f4xELA0MZ-8&scaling=scale-down-width&page-id=0%3A1&hide-ui=1" target="_blank">Figma Prototype</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-19.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Vested</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">HTML, CSS, Javascript, Figma, XD</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://vested.ca/" target="_blank">vested.ca</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-20.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Ibriz</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">Figma, Adobe XD</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.figma.com/proto/hiBwkoVSpjLzFHA9WiX1F0/Ibriz?page-id=0%3A1&type=design&node-id=1-183&viewport=54%2C306%2C0.14&t=PZZ0VY3nIU1hF9A3-8&scaling=scale-down-width&starting-point-node-id=1%3A183&hide-ui=1" target="_blank">Ibriz Backoffice</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-21.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                     <!-- Portfolio Item Detail Starts -->
+                     <li class="w-660 absolute left-1/2 top-1/2 -mt-280 -ml-330 invisible">
+                        <figure class="w-full h-full bg-black-3 p-30 overflow-auto rounded-10">
+                           <!-- Project Details Starts -->
+                           <figcaption class="mb-15">
+                              <h3 class="uppercase leading-lh-1.2 text-accent pt-10 pb-28 font-bold text-center text-fs-33">Web Project</h3>
+                              <div class="flex flex-wrap font-Open-sans text-fs-15">
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-file-text-o pr-8"></i><span class="project-label">Project </span>: <span class="font-semibold">Website</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-user-o pr-8"></i><span class="project-label">Client </span>: <span class="font-semibold">Career Institute</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2593/2593065.png" class="tech-icon"><span class="project-label">Langages </span>: <span class="font-semibold">Photoshop, HTML, CSS, JS</span>
+                                 </div>
+                                 <div class="w-1/2 xs:w-full mb-8">
+                                    <i class="fa fa-external-link pr-8"></i><span class="project-label">Preview </span>: <span class="font-semibold"><a class="underline text-accent" href="https://www.career.edu.pk/" target="_blank">Career Institute</a></span>
+                                 </div>
+                              </div>
+                           </figcaption>
+                           <!-- Project Details Ends -->
+                           <!-- Main Project Content Starts -->
+                           <img class="block w-full rounded-5" src="assets/img/projects/project-22.jpg" alt="Portolio Image">
+                           <!-- Main Project Content Ends -->
+                        </figure>
+                     </li>
+                     <!-- Portfolio Item Detail Ends -->
+                  </ul>
+                  <!-- Portfolio Navigation Starts -->
+                  <nav class="down-lg:fixed down-lg:top-0 down-lg:w-full down-lg:h-102 down-lg:bg-black-3 down-lg:z-10 down-lg:border-b down-lg:border-solid down-lg:border-b-black-4 xs:h-62">
+                     <span class="nav-prev fixed cursor-pointer py-200 px-30 top-1/2 down-lg:top-35 from-lg:-translate-y-1/2 from-lg:left-0 down-lg:left-30 xs:w-20 xs:top-21"><img class="block" src="assets/img/projects/navigation/left-arrow.png" alt="previous"></span>
+                     <span class="nav-next fixed cursor-pointer py-200 px-30 top-1/2 down-lg:top-35 from-lg:-translate-y-1/2 from-lg:right-0 down-lg:right-30 xs:w-20 xs:top-21"><img class="block" src="assets/img/projects/navigation/right-arrow.png" alt="next"></span>
+                     <span class="nav-close fixed cursor-pointer from-lg:top-30 down-lg:top-35 from-lg:right-30 down-lg:left-0 down-lg:right-0 down-lg:mx-auto down-lg:block down-lg:w-32 xs:w-20 xs:top-21"><img class="block" src="assets/img/projects/navigation/close-button.png" alt="close"> </span>
+                  </nav>
+                  <!-- Portfolio Navigation Ends -->
+               </div>
+               <!-- Portfolio Details Ends -->
+            </div>
+         </div>
+         <!-- Portfolio Items Ends -->
+      </div>
+   </div>
+   <!-- Portfolio Ends -->
+
+
+
+</div>
+<!-- Main Content Ends -->
+<!-- Template JS Files -->
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<script src="assets/js/styleswitcher.js"></script>
+<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+<script src="assets/js/masonry.pkgd.min.js"></script>
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/cbpGridGallery.js"></script>
+<script src="assets/js/jquery.hoverdir.js"></script>
+<script src="assets/js/menu.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>
